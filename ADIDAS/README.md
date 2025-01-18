@@ -144,9 +144,9 @@ Contributions are welcome! If you would like to enhance the analysis or add new 
 
 ## Credits
 
-Data Collector: Tamas Nedo (Kaggle Profile)
+Data Collector: Tamas Nedo (https://www.kaggle.com/tamsnd)
 
-Analysis and Visualization: [Your Name/Team Name]
+Analysis and Visualization: [Ganesh Kota]
 
 ## License
 
