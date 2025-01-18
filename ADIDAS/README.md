@@ -1,24 +1,24 @@
-Data Visualization and Analytics Repository
+# Data Visualization and Analytics Repository
 
-Overview
+## Overview
 
 This repository showcases diverse data visualizations and analytics projects, including a comprehensive analysis of Adidas shoe data and other datasets. It aims to highlight trends, patterns, and insights across various domains using tools like Power BI and Python.
 
-About the Dataset
+## About the Dataset
 
-Source:
+## Source:
 
 The dataset was collected from Adidas Germany website using ethical web scraping techniques. The data represents approximately 3400 unique shoe models with multiple size-availability pairs updated daily for 12 days. Some countries (e.g., Germany) have multiple days of data, while others have fewer.
 
-Disclaimer:
+## Disclaimer:
 
 Availability Column: The dataset contains a significant number of 'max' (15) values for availability. This likely indicates Adidas' restocking process, which may occur randomly. Users are encouraged to filter out these values and optionally exclude '0' values, depending on their use case.
 
 The data was collected during the afternoon and late-night hours.
 
-Dataset Details:
+## Dataset Details:
 
-Files Used:
+## Files Used:
 
 country_dim.csv: Country-level metadata
 
@@ -26,7 +26,7 @@ shoes_dim.csv: Dimension data related to shoes (e.g., name, SKU, and characteris
 
 shoes_fact.csv: Fact table containing transactional and availability data
 
-Columns:
+## Columns:
 
 name: Shoe model name
 
@@ -52,126 +52,102 @@ date: Collection date (dd/mm/yyyy)
 
 country_code: Country identifier (US, DE, UK, BE)
 
-License:
+## License:
 
 This dataset is released under the CC0: Public Domain license and is freely available for educational and analytical purposes.
 
-Source Reference:
+## Source Reference:
 
 Tamas Nedo. (2025). Adidas Webstore Shoe Data [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/10499384
 
-Analysis Highlights
+## Analysis Highlights
 
-Key Questions Addressed:
+## Key Questions Addressed:
 
-How does pricing vary across regions and categories?
+1. How does pricing vary across regions and categories?
+2. What are the availability trends for different shoe models and sizes?
+3. Which categories and sizes are most popular across genders?
+4. What insights can be drawn from regional stock patterns?
 
-What are the availability trends for different shoe models and sizes?
+## Dashboards:
 
-Which categories and sizes are most popular across genders?
+* ## Dashboard 1: Regional Pricing, Category Trends, and Gender Preferences
+    * ### Visuals:
 
-What insights can be drawn from regional stock patterns?
+      i. Average price by shoe metric (USA, EU, UK)
+    
+      ii. Category-wise price contributions
+    
+      iii. Gender distribution for various occasions (e.g., running, casual)
 
-Dashboards:
+* ## Dashboard 2: Availability and Size-Based Insights
+    * ### Visuals:
 
-Dashboard 1: Regional Pricing, Category Trends, and Gender Preferences
+      i. Standard deviation of prices by size
 
-Visuals:
+      ii. Monthly availability trends
 
-Average price by shoe metric (USA, EU, UK)
+      iii. Average availability across sizes
 
-Category-wise price contributions
+* ## Dashboard 3: Regional Performance Analysis
+    * ### Visuals:
 
-Gender distribution for various occasions (e.g., running, casual)
+      i. Waterfall chart for regional pricing trends
+      ii. Geographic map of availability by country
 
-Dashboard 2: Availability and Size-Based Insights
+## Tools Used:
 
-Visuals:
-
-Standard deviation of prices by size
-
-Monthly availability trends
-
-Average availability across sizes
-
-Dashboard 3: Regional Performance Analysis
-
-Visuals:
-
-Waterfall chart for regional pricing trends
-
-Geographic map of availability by country
-
-Tools Used:
-
-Power BI: For data visualization and interactive dashboards
+1Power BI: For data visualization and interactive dashboards
 
 Python: For data extraction and cleaning
 
 Excel/CSV: For storing and organizing datasets
 
-Repository Structure
+## Repository Structure
 
-├── data
-│   ├── country_dim.csv         # Country-level metadata
-│   ├── shoes_dim.csv           # Shoe dimension data
-│   ├── shoes_fact.csv          # Fact table with availability and size data
-├── dashboards
-│   ├── Dashboard1_RegionalPricing.pbix
-│   ├── Dashboard2_Availability.pbix
-│   ├── Dashboard3_Performance.pbix
-├── README.md                  # Project documentation
-├── LICENSE.md                 # Dataset license
-└── analysis
-    ├── data_cleaning.ipynb     # Jupyter notebook for data cleaning
-    ├── insights_report.pdf     # Summary report of insights
 
-How to Use
+![image](https://github.com/user-attachments/assets/40961d34-4037-4e2a-a56d-3fe729cfdbc2)
 
-Prerequisites:
 
-Install Power BI Desktop to open .pbix files.
+## How to Use
 
-Download Python and required libraries (if using the data_cleaning.ipynb notebook).
+### Prerequisites:
 
-Instructions:
+1. Install Power BI Desktop to open .pbix files.
+2. Download Python and required libraries (if using the data_cleaning.ipynb notebook).
+
+## Instructions:
 
 Data Cleaning:
 
-Use the data_cleaning.ipynb notebook to preprocess and clean the dataset (e.g., filtering availability values).
+Firstly, run the summaries on the data to check for any inconcsistencies and clean them as per your requirements. 
 
-Load Dashboards:
+## Load Dashboards:
 
 Open the .pbix files in Power BI Desktop to explore the interactive dashboards.
 
-Interactive Filtering:
+## Interactive Filtering:
 
 Use slicers in the dashboards to filter data by region, category, gender, etc.
 
-Key Insights
+## Key Insights
 
-Pricing Patterns: USA shoes have the highest average prices compared to EU and UK metrics.
+* Pricing Patterns: USA shoes have the highest average prices compared to EU and UK metrics.
 
-Category Leaders: Running shoes and outdoor shoes dominate in terms of total price contribution.
+* Category Leaders: Running shoes and outdoor shoes dominate in terms of total price contribution.
 
-Availability Trends: Stock levels fluctuate significantly by size and region, with restocking patterns visible in certain categories.
+* Availability Trends: Stock levels fluctuate significantly by size and region, with restocking patterns visible in certain categories.
 
-Contribution
+## Contribution
 
 Contributions are welcome! If you would like to enhance the analysis or add new features, feel free to fork this repository and submit a pull request.
 
-Credits
+## Credits
 
 Data Collector: Tamas Nedo (Kaggle Profile)
 
 Analysis and Visualization: [Your Name/Team Name]
 
-License
+## License
 
 This project is licensed under the CC0: Public Domain license. Feel free to use it for personal or commercial projects.
-
-Feedback
-
-For questions, suggestions, or feedback, please contact:
-[Your Contact Information]
-
