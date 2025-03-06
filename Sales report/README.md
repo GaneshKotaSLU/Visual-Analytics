@@ -140,4 +140,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-© 2025 Ganesh Kota | [LinkedIn](https://www.linkedin.com/in/ganesh-kota) | [Portfolio](https://ganesh-kota.github.io/portfolio)
+© 2025 Ganesh Kota | [LinkedIn](https://www.linkedin.com/in/ganesh-kota) | [Portfolio](https://ganeshkota.com)
