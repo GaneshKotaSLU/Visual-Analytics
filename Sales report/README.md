@@ -122,7 +122,7 @@ The dataset spans 2018-2021 with transactions across multiple regions and produc
 
 ## About the Author
 
-With 5+ years of experience as a versatile data analyst across multiple industries including healthcare, finance, retail, manufacturing, and technology sectors, I specialize in transforming complex datasets into actionable business insights. My expertise spans the entire data lifecycle from ETL development and statistical analysis to predictive modeling and interactive dashboard creation.
+With multiple years of experience performing versatile data analysis across multiple industries including healthcare, finance, retail, manufacturing, and technology sectors, I specialize in transforming complex datasets into actionable business insights. My expertise spans the entire data lifecycle from ETL development and statistical analysis to predictive modeling and interactive dashboard creation.
 
 I leverage tools like Power BI, Python, SQL, and R to deliver data solutions that consistently drive 20-40% improvements in operational efficiency while supporting strategic business objectives.
 
